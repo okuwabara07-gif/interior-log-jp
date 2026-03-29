@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: { default: 'インテリアLOG', template: '%s | インテリアLOG' },
   description: 'インテリアコーディネートのコツとおすすめ家具・雑貨を発信',
+  verification: { google: 'xpdiFRYHloMJxfhCT-IMD08p5na4v9WUqvPY9OrDsHs' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
