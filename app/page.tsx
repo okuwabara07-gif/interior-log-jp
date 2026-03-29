@@ -6,9 +6,9 @@ export default function HomePage() {
   return (
     <>
       <section className="hero">
-        <p className="hero-eyebrow">Career Note</p>
-        <h1 className="hero-title">キャリアを、もっと戦略的に。</h1>
-        <p className="hero-sub">キャリアコンサルタント監修の転職術・スキルアップ法・年収アップのコツをお届けします。</p>
+        <p className="hero-eyebrow">Interior Log</p>
+        <h1 className="hero-title">部屋を、もっと好きになる。</h1>
+        <p className="hero-sub">インテリアデザイナー監修のコーディネート術・おすすめ家具・DIYアイデアをお届けします。</p>
         <Link href="/blog" style={{ display: 'inline-block', background: 'var(--pink)', color: '#fff', padding: '12px 28px', borderRadius: '50px', fontWeight: 700, fontSize: 14, textDecoration: 'none' }}>
           記事をみる →
         </Link>
