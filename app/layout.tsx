@@ -1,31 +1,16 @@
 import type { Metadata } from 'next';
 import './globals.css';
-
 export const metadata: Metadata = {
   title: 'インテリアLOG | K-Beauty Portal',
-  description: 'インテリア・家具・雑貨の最新情報',
-  openGraph: {
-    title: 'インテリアLOG',
-    description: 'インテリア・家具・雑貨の最新情報',
-    url: 'https://interior-log-jp.vercel.app',
-    siteName: 'K-Beauty Portal',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'インテリアLOG',
-    description: 'インテリア・家具・雑貨の最新情報',
-    site: '@beauty_note_j',
-    creator: '@beauty_note_j',
-  },
+  description: 'インテリアの最新比較ランキング・口コミ・おすすめ商品',
+  twitter: { card: 'summary_large_image', site: '@beauty_note_j', creator: '@beauty_note_j' },
 };
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"/>
       </head>
       <body>{children}</body>
     </html>
