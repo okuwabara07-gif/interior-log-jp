@@ -1,2 +1,3 @@
 # interior-log-jp
-インテリアLOG
+
+Updated: 2026-04-01
